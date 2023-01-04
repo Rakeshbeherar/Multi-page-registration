@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta http-equiv="x-UA-Compatible"content=ie=edge">
+
+     <title>
+        Responsive Registration Form
+     </title>
+     <link rel="stylesheet" href="design.css"/>
+     <script src="script.js"></script>
+    </head>
+    <body>
+      
+        <header class="h1"> Registration  First Page</header>
+        <div class="from-container1">
+    
+        <form name="myForm" onsubmit="return myFun()">
+                
+                  <div class="Name1">
+                 <label class="details">Name</label>
+
+                 <input typr="text" id="User_Name1"placeholder="First*" value="" name="firstName"/>
+                 <span id="Message1"></span>
+                 <input type="text" id="User_Name2"placeholder="Last*" value="" name="firstName"/>
+                 <span id="Message2"></span>
+                 
+                 </div>
+                
+                 <div class="Name2">
+                    
+                  <label class="details"> Date of Brith</label>
+
+                        <input type="Date" id="date" value="" name="date"/>
+                        <span id="Message3"></span>
+                 </div>
+                
+                 <div class="Name3">
+                    
+                   <label class="details"> Email</label>
+                   
+                   <input type="text"  id="Email"placeholder="absd@gmail.com" name="Email" /><br>
+                   <span id="Message4"></span>            
+                 </div>
+                 <div class="Name4">
+                  <label class="details"> Father's name</label>
+                   <input type="text" id="Father1" placeholder="First" Name="Father_firstName"/>
+                   <span id="Message5"></span>
+                   <input type="text" id="Father2" placeholder="Last"  Name="Father_lastName"/>
+                    <span id="Message6"></span>
+                 </div>
+                 <div class="Name5">
+                    
+                         <label class="details"> Mother's name</label>
+
+                        <input type="text" id="Mother1"placeholder="Frist" name="Mother_FristName"/>
+                        <span id="Message7"></span>
+                        <input type="text" id="Mother2"placeholder="Last"  name="Mother_LastName"/>
+                         <span id="Message8"></span>
+                  </div>
+                 <div class="Name6">
+                        
+                        <label class="details"> Gender</label><br>
+
+                        <input type="radio" name="gender" value="male" id="gender">Male<br>
+                        <input type="radio" name="gender" value="female"id="gender">Female<br>
+                         <span id="Message9"></span>  
+                    
+                 </div> 
+                  <div class="Name7">
+                    <label class="details">Nationality</label>
+
+                        <input type="text" id="Nationality" placeholder="  " value="" name="Nationality"/><br>
+                        <span id="Message10"></span>
+                  </div>
+                  
+                  <div class="Name8">
+                     <label class="details"> Home Address</label>
+                    <input type="text"  id="Address" placeholder="street address" name="address"/>
+                    <span id="Message11"></span>
+                  </div>
+
+                                <div class="Name9">
+                     
+                                 <input typr="text" id="city" placeholder="City" name="city"/>
+                                    <span id="Message12"></span>
+
+                                    <select class="Country" name="Country" id="choose">
+                                    <option value="0">Country</option>
+                                   <option value="1">India</option>
+                                   <option value="2">Russia</option>
+                                    <option value="3">China</option>
+                                    <option value="4">Dubai</option>
+                                    <option value="5">USA</option>
+                                    </select>
+                                    <span id="Message15"></span>
+                                    
+                        </div>
+                     
+                     <div class="Name10">
+                         <label class="details">Telephone-Home</label>
+
+                        <input type="text" id="number1"placeholder="### ### ####" name="number1"/><br>
+
+                        <span id="Message13"></span>
+                     </div>
+
+                     <div class="Name11">
+                       <label class="details"> Telephone-Mobile </label>
+                        <input type="text" id="number2"placeholder="### ### ####" name="number2"/><br>
+                        <span id="Message14"></span>
+                     </div>
+                 
+                     <div>
+                      <input type="submit" value="SUBMIT" class="btn" value="select"/>
+                       </div>
+                       <center>    
+                        <a href="from2.html"class="next">NEXT &raquo;</a>
+                       </center>
+                
+                     </form>
+             </div>
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Registration form 3
+    </title>
+    <link rel="stylesheet" href="design.css"/>
+    <script src="/script.js"></script>
+    </head>
+    <body>
+        <header class="h1">
+            Registration page 3
+        </header>
+        
+           <div= class=" form-container3">
+                <form name="myForm" onsubmit="return myForm2()">
+                    
+                    <div class="img">
+                    <label class="pdf">Uploaded Passport size image:</label>
+                    <input type="file" id="file1" name="file1" acept="image/*"onchange="return myForm2(this)">
+                    <span id="fill1"></span>
+
+
+                     </div>
+                    <div class="img">
+                    <label class="pdf">Uploaded HSC Mark sheet:</label>
+                    <input type="file" id="file2"  onchange="return myForm1(this)">
+                    <span id="fill2"></span>
+                    </span>
+
+                     </div>
+                    <div class="img">
+                    <label class="pdf">Uploaded SSC Mark Sheet:</label>
+                    <input type="file" id="file3"  onchange="return myForm1(this)">
+                    <span id="fill3"></span>
+                    </div>
+                           <div class="img">
+                           <label class="pdf">All Semestar result in single pdf:</label>
+                            <input type="file"id="file4"  onchange="return myForm1(this)">
+                            <span id="fill4"></span>
+                            </div>
+                        <div>
+                        <input type="submit" value="SUBMIT" class="btn"/>
+                      </div>
+                    
+                    <center class="a1">
+                        <a href="from2.html">&raquo; Back</a>
+                    </center>
+                
+            </form>
+        </div>
+    </body>
+</html>
